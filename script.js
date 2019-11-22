@@ -45,19 +45,16 @@ function removeItemFromCart(name) {
         var list = document.getElementById("shopBinding");
         if (cart[i].name === name) {
             cart[i].count = cart[i].count - 1;
-            let index = 0;
+            let index = 1;
             if(i === '1') {
-                index = 1
+                index = 2
             }
             list.childNodes[1].children[index].children[2].innerText = cart[i].count;
             console.log(list);
         }
 
         if (cart[i].count === 0) {
-            console.log('Zero Reached');
-            console.log(cart, i);
             cart.splice(i, 1);
-            console.log(cart, i);
             list.innerHTML = '';
             bindElements();
         }
