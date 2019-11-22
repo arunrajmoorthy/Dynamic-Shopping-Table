@@ -1,0 +1,62 @@
+
+
+.text-center {
+    text-align: center;
+}
+
+.over_all_wrapper {
+    width: 50%;
+    margin: 15px auto;
+}
+
+
+#shopBinding {
+    
+}
+
+.over_all_wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.over_all_wrapper table th {
+    background-color: #fff89d;
+}
+
+.over_all_wrapper table td {
+    text-align: center;
+}
+
+.over_all_wrapper table th, 
+.over_all_wrapper table td {
+    padding: 7px 15px;
+    border: 1px solid #ccc;
+}
+
+.add_btn {
+    background-color: #6fb17d;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 15px;
+    border: 1px solid #6fb17d;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.remove_btn {
+    background-color: #ff4949;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 15px;
+    border: 1px solid #ff4949;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
